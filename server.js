@@ -23,8 +23,9 @@ app.use("/api/security", securityRoutes);
 
 app.use("/api/scripts/", scriptRoutes);
 
-app.get("/", (req, res) => {
-  res.send("contact me running");
+app.get('/', (req, res) => {
+  console.log('Server hit');
+  res.send('Server hit');
 });
 
 //"mongodb+srv://marcomongo:mongomarco@marcosclusterno1.kzoqh.mongodb.net/showcase?retryWrites=true&w=majority"
