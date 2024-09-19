@@ -14,7 +14,7 @@ async function connect() {
   try {
     // rabbitmq default port is 5672
     const amqpServer =
-      "amqps://wypzmmcz:f_wd5674l1TZBKA_F7DV7R4NxqnWVC68@moose.rmq.cloudamqp.com/wypzmmcz";
+      "amqps://gcojgcij:vn1d4yTk3KJTMVa__Szb2-ak0bEyihTI@woodpecker.rmq.cloudamqp.com/gcojgcij";
     connection = await amqplib.connect(amqpServer);
     channel = await connection.createChannel();
 
