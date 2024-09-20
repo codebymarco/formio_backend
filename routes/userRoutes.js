@@ -22,8 +22,9 @@ router.get("/:id", getUser);
 
 router.delete("/:id", deleteUser);
 
-router.post("/passwordchange/:id", changePassword);
+router.post("/password/change/:id", changePassword);
 
+// Check User Password
 router.post("/password/check/:id", checkPassword);
 
 module.exports = router;

@@ -74,14 +74,14 @@ const editUser = async (req, res) => {
 
 const changePassword = async (req, res) => {
   const _id = req.params.id;
-  const { newPassword } = req.body;
+  const { password } = req.body;
   const user = await User.findOne({ _id });
   if (!user) {
     throw Error("user not exist");
   }
 
   const salt = await bcrypt.genSalt(10);
-  const hash = await bcrypt.hash(newPassword, salt);
+  const hash = await bcrypt.hash(password, salt);
 
   try {
     const newpassword = await User.findByIdAndUpdate(_id, { password: hash });
