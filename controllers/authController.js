@@ -70,7 +70,7 @@ const createUser = async (req, res) => {
       email: user.email,
       title: "default title",
       reply_email: false,
-      reply_email_content: "",
+      reply_email_content: "thanks for contacting me, i will get you back as soon as possible",
       premium: true,
       namefield: true,
       emailfield: true,
