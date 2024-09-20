@@ -15,7 +15,7 @@ const formSchema = new Schema(
     email: { type: String, required: true },
     title: { type: String, required: true },
     reply_email: { type: Boolean, required: true },
-    reply_email_content: { type: String, required: true },
+    reply_email_content: { type: String},
     premium: { type: Boolean, required: true },
     namefield: { type: Boolean, required: true },
     emailfield: { type: Boolean, required: true },

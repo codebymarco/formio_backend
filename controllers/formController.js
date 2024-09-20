@@ -26,22 +26,22 @@ const createForm = async (req, res) => {
     const form = {};
 
 form.user_id = user_id;  // Example of setting a property with an empty string value
-form.bgcolor = "dfdyghgkj";
-form.fontcolor = "tryfhgjl";
-form.inputbgcolor = "rughrwg";
-form.btncolor = "wi";
-form.btntxtcolor = "hrwu";
-form.inputtxtcolor = "ur";
+form.bgcolor = "";
+form.fontcolor = "";
+form.inputbgcolor = "";
+form.btncolor = "";
+form.btntxtcolor = "";
+form.inputtxtcolor = "";
 form.name = name;
 form.email = email;
 form.title = title;
 form.reply_email = false;  // Example of setting a boolean property
-form.reply_email_content = "khrkhwrj";
+form.reply_email_content = "thank you for contacting me";
 form.premium = false;  // Example of setting a boolean property
 form.namefield = true;  // Example of setting a boolean property
 form.emailfield = true;  // Example of setting a boolean property
 form.bodyfield = true;  // Example of setting a boolean property
-form.status = false;  // Example of setting a boolean property
+form.status = true;  // Example of setting a boolean property
 form.theme = "ONE";  // Example of setting a string property
 form.custom = false;  // Example of setting a boolean property
 

@@ -68,13 +68,13 @@ const createUser = async (req, res) => {
       inputtxtcolor: " #000000",
       name: "default",
       email: user.email,
-      title: "nbbbzb",
+      title: "default title",
       reply_email: false,
-      reply_email_content: "thanks for contcting me, will get back to you",
+      reply_email_content: "",
       premium: true,
       namefield: true,
-      emailfield: false,
-      bodyfield: false,
+      emailfield: true,
+      bodyfield: true,
       status: true,
       theme: 'ONE'
     };
